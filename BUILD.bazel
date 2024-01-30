@@ -1,0 +1,55 @@
+load("@rules_oci//oci:defs.bzl", "oci_image", "oci_push", "oci_tarball")
+load("@rules_pkg//:pkg.bzl", "pkg_tar")
+load("@rules_pkg//pkg:mappings.bzl", "pkg_attributes", "pkg_files")
+load("@bazel_skylib//rules:build_test.bzl", "build_test")
+
+pkg_files(
+    name = "palworld_server_files",
+    srcs = ["@steam_palworld_dedicated//:files"],
+    strip_prefix = "pkg",
+    attributes = pkg_attributes(mode = "0755"),  # this applies to all files and is an awful idea
+)
+
+pkg_tar(
+    name = "palworld_server",
+    srcs = ["palworld_server_files"],
+    package_dir = "/opt/palworld",
+)
+
+oci_image(
+    name = "image",
+    base = "@debian",
+    entrypoint = ["/opt/palworld/Pal/Binaries/Linux/PalServer-Linux-Test"],
+    env = {},
+    target_compatible_with = ["@platforms//os:linux"],
+    tars = [
+        ":palworld_server",
+    ],
+    user = "1000"
+)
+
+build_test(
+    name = "image_test",
+    targets = [":image"],
+)
+
+oci_tarball(
+    name = "image_tarball",
+    image = ":image",
+    repo_tags = ["palworld-server:bazel"],
+)
+
+oci_push(
+    name = "image_push",
+    image = ":image",
+    remote_tags = ["latest"],
+    repository = "ghcr.io/kleinpa/palworld-server",
+)
+
+platform(
+    name = "linux_64",
+    constraint_values = [
+        "@platforms//os:linux",
+        "@platforms//cpu:x86_64",
+    ],
+)

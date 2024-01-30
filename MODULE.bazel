@@ -1,0 +1,27 @@
+module(name = "palworld-server", version = "1.0")
+
+bazel_dep(name = "rules_pkg", version = "0.9.1")
+bazel_dep(name = "rules_oci", version = "1.4.0")
+bazel_dep(name = "rules_steam")
+
+git_override(
+    module_name = "rules_steam",
+    commit = "fb679c469287c333496dac45c6fa000b01a57abf",
+    remote = "https://github.com/lanofdoom/rules_steam.git",
+)
+
+steam = use_extension("@rules_steam//:extension.bzl", "steam")
+steam.app(name = "steam_palworld_dedicated", app = "2394010")
+use_repo(
+    steam,
+    "steam_palworld_dedicated",
+)
+
+oci = use_extension("@rules_oci//oci:extensions.bzl", "oci")
+
+oci.pull(
+    name = "debian",
+    image = "docker.io/library/debian",
+    digest = "sha256:a6799dbad3040b16f9275e6598e03a15f389880edc58d389f913020f27c901d0", # debian:stable-20240110-slim linux/amd64
+)
+use_repo(oci, "debian")
