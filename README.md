@@ -1,30 +1,55 @@
-# LAN of DOOM Counter-Strike: Source Server
-Docker image for a private, preconfigured private Counter-Strike: Source server
-as used by the LAN of DOOM.
+# LAN of DOOM Palworld Server
 
-# Installation
-Run ``docker pull ghcr.io/lanofdoom/palworld-server:latest``
+Containerized private Palworld server.
 
-# Installed Addons
-* LAN of DOOM Authenticate by Steam Group
-* MetaMod:Source
-* SourceMod
+Try it with:
 
-# Environmental Variables
-``HOSTNAME`` The name of the server as listed in Valve's server browser.
+```
+$ ./run-local.sh
+```
 
-``PASSWORD`` The password users must enter in order to join the server.
+## Configuration
 
-``MAP`` The first map to run on the server. ``de_dust2`` by default.
+The server configuration is stored alongside saved games in the `/opt/palworld/Pal/Saved/` folder.
 
-``MOTD`` The MOTD to use for the server.
+Read more about server configuration at [https://docs.palworldgame.com/settings-and-operation/configuration](https://docs.palworldgame.com/settings-and-operation/configuration/).
 
-``PORT`` The port to use for the server. ``27015`` by default.
+## Installation
 
-``RCON_PASSWORD`` The rcon password for the server.
-
-``STEAM_GROUP_ID`` The Steam group to use for the allowlist of users joining the
-server.
-
-``STEAM_API_KEY`` The [Steam API key](https://steamcommunity.com/dev/apikey) to
-use for the group membership checks with the Steam's Web API.
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+    name: palworld
+spec:
+    selector:
+        app: palworld
+    ports:
+        - port: 8211
+            protocol: UDP
+            targetPort: palworld
+    type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+    name: palworld
+spec:
+    serviceName: palworld
+    replicas: 1
+    selector:
+        matchLabels:
+            app: palworld
+    template:
+        metadata:
+            labels:
+                app: palworld
+        spec:
+            containers:
+                - name: palworld
+                    image: ghcr.io/lanofdoom/palworld-server:latest
+                    ports:
+                        - name: palworld
+                            containerPort: 8211
+                            protocol: UDP
+```
