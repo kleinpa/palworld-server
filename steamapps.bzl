@@ -1,0 +1,11 @@
+load("@rules_steam//:steam.bzl", "steam_app")
+
+def repos(ctx):
+    steam_app(
+       name = "palworld_dedicated_server",
+        depots = [
+            {"app": "2394010", "depot": "1006", "manifest": "7138471031118904166"},
+        ],
+    )
+
+steamapps_bzlmod = module_extension(implementation = repos)
