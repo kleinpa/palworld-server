@@ -19,6 +19,6 @@ oci = use_extension("@rules_oci//oci:extensions.bzl", "oci")
 oci.pull(
     name = "debian",
     image = "docker.io/library/debian",
-    digest = "sha256:a6799dbad3040b16f9275e6598e03a15f389880edc58d389f913020f27c901d0",  # debian:stable-20240110-slim linux/amd64
+    digest = "sha256:264982ff4d18000fa74540837e2c43ca5137a53a83f8f62c7b3803c0f0bdcd56",  # debian:stable-20240110-slim linux/amd64
 )
 use_repo(oci, "debian")
