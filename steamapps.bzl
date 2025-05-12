@@ -5,6 +5,7 @@ def repos(ctx):
        name = "palworld_dedicated_server",
         depots = [
             {"app": "2394010", "depot": "1006", "manifest": "7138471031118904166"},
+            {"app": "2394010", "depot": "2394012", "manifest": "7828355383304947"},
         ],
     )
 
