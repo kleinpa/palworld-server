@@ -1,6 +1,6 @@
 load("@rules_steam//:steam.bzl", "steam_app")
 
-BUILD_palworld_dedicated_server = "0"
+BUILD_palworld_dedicated_server = "18291249"
 
 def repos(ctx):
     steam_app(
