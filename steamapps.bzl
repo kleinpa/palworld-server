@@ -1,13 +1,13 @@
 load("@rules_steam//:steam.bzl", "steam_app")
 
-BUILD_palworld_dedicated_server = "19449994"
+BUILD_palworld_dedicated_server = "19968060"
 
 def repos(ctx):
     steam_app(
         name = "palworld_dedicated_server",
         depots = [
             {"app": "2394010", "depot": "1006", "manifest": "5587033981095108078"},
-            {"app": "2394010", "depot": "2394012", "manifest": "5432643748200410263"},
+            {"app": "2394010", "depot": "2394012", "manifest": "6415730362733705279"},
         ],
     )
 
