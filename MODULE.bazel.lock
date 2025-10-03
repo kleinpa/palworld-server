@@ -703,7 +703,7 @@
     },
     "@@rules_dotnet+//dotnet:paket.paket2bazel_dependencies_extension.bzl%paket2bazel_dependencies_extension": {
       "general": {
-        "bzlTransitiveDigest": "E0qffFlmyAulQgeq+75BumrHWn164Y9qIDh37u1rCaE=",
+        "bzlTransitiveDigest": "SACfqtNkdJOslmzS0/HaPyXQAeZOC+KzrSeE9u22jWM=",
         "usagesDigest": "EXne6H2FTCIxIA9BQKW2WRwK0DRGyiyjCatgHbXNUF4=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
@@ -1295,7 +1295,7 @@
     },
     "@@rules_dotnet+//dotnet:paket.rules_dotnet_nuget_packages_extension.bzl%rules_dotnet_nuget_packages_extension": {
       "general": {
-        "bzlTransitiveDigest": "N1dxWBbuMQlHEpZgdnViFxwz/tpHa2PLNjB/vMKguMk=",
+        "bzlTransitiveDigest": "ZUTIprYI+jNklV9acCv6nQ+EeO1isCo4z5ij/Xz4YZM=",
         "usagesDigest": "tIpx3jXAHZDAATD5ZszEQlLwQbrOrSt8OzVHE2M2+JY=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
@@ -1411,7 +1411,7 @@
     },
     "@@rules_dotnet+//dotnet/private/sdk/apphost_packs:dotnet.apphost_packs_extension.bzl%apphost_packs_extension": {
       "general": {
-        "bzlTransitiveDigest": "IO46hTgtoCn+n2IshqnTMi4I/YN1T9MLGGQeNWoVAno=",
+        "bzlTransitiveDigest": "AX99ozS/IO2RvHwlh8pma76Up+nFgx1flUDoj27InS0=",
         "usagesDigest": "Uj0iAflR+SM2qnZ094iv7y/f8AcP6U90fs6TVlFCzuQ=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
@@ -2123,7 +2123,7 @@
     },
     "@@rules_dotnet+//dotnet/private/sdk/runtime_packs:dotnet.runtime_packs_extension.bzl%runtime_packs_extension": {
       "general": {
-        "bzlTransitiveDigest": "KJ5lHkAnx9QsOninV2ehQtth0MSqfPSsyOD8myIL0I4=",
+        "bzlTransitiveDigest": "s/9Eckuahw0QJ/6M0xX8GyD13R4dg8h4nolCgcseGSc=",
         "usagesDigest": "9X9nOR7MxleLtNAG2O7dSieUYZ6eC+1/7HIbqzPntqE=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
@@ -3475,7 +3475,7 @@
     },
     "@@rules_dotnet+//dotnet/private/sdk/targeting_packs:dotnet.targeting_packs_extension.bzl%targeting_packs_extension": {
       "general": {
-        "bzlTransitiveDigest": "rySlRywJC8B7jNjUEB/lm8AVmTAFYfat+qMR2PSWCco=",
+        "bzlTransitiveDigest": "7pzh0NLY4O3pP+1j72S4iVJl4zTq27zZJNFWOcWh/sc=",
         "usagesDigest": "zdCuVAq+fOMpKpheE0fxstVQBAZhjeaUR4HYAk5yJno=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
@@ -7963,7 +7963,7 @@
     },
     "@@rules_steam+//examples:steamapps.bzl%steamapps_bzlmod": {
       "general": {
-        "bzlTransitiveDigest": "6384uIVaVHk1mvQHO68ACg4x1CAgfm3yIg5Bwt8NnbM=",
+        "bzlTransitiveDigest": "DmYLRPxenUseKs3v5b3kgnu+LUWB/W3Z+aJsKz4E+gw=",
         "usagesDigest": "isr7MUkdYvjmTnD5Fuvk+tfcDetu3wo42BqrBuA0CME=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
@@ -8006,7 +8006,7 @@
     },
     "@@rules_steam+//generate/paket:paket.main_extension.bzl%main_extension": {
       "general": {
-        "bzlTransitiveDigest": "YMJXtpaJvg7VIQOpXseGwBzv7pKrU7zpG8eS4/MO+nY=",
+        "bzlTransitiveDigest": "KIJTCS/JE+RYkmEY+Do8t3dMoecAb9G76/EE6oQkbzY=",
         "usagesDigest": "WNnozXEAh7FfuzjATagGBjez+zHzK/hRZFlhPYLfo8o=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
