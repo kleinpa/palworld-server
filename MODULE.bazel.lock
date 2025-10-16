@@ -5033,7 +5033,7 @@
     "@@rules_oci+//oci:extensions.bzl%oci": {
       "general": {
         "bzlTransitiveDigest": "3WZozGFkQhqwR/mbjHadgUJeRucvRwVmZrgZbRSgOvk=",
-        "usagesDigest": "+a4dtT6wHqVXmGAk4Uzb1hhaDLqeNJg4UnVV8d0S/Hs=",
+        "usagesDigest": "+sl4ccn98nLAVz1fIXTIqzoLBcY/Rf68HLQukiwSlfY=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -5045,7 +5045,7 @@
               "scheme": "https",
               "registry": "index.docker.io",
               "repository": "library/debian",
-              "identifier": "sha256:4b50eb66f977b4062683ff434ef18ac191da862dbe966961bc11990cf5791a8d",
+              "identifier": "sha256:fd8f5a1df07b5195613e4b9a0b6a947d3772a151b81975db27d47f093f60c6e6",
               "platform": "linux/amd64",
               "target_name": "palworld-server-debian_linux_amd64",
               "bazel_tags": []
@@ -5059,7 +5059,7 @@
               "scheme": "https",
               "registry": "index.docker.io",
               "repository": "library/debian",
-              "identifier": "sha256:4b50eb66f977b4062683ff434ef18ac191da862dbe966961bc11990cf5791a8d",
+              "identifier": "sha256:fd8f5a1df07b5195613e4b9a0b6a947d3772a151b81975db27d47f093f60c6e6",
               "platforms": {
                 "@@platforms//cpu:x86_64": "@palworld-server-debian_linux_amd64"
               },
@@ -5221,7 +5221,7 @@
     },
     "@@rules_python+//python/extensions:pip.bzl%pip": {
       "general": {
-        "bzlTransitiveDigest": "4bgTClr5dsi0L2gPU0HkeaqZHpbl76xW7ZOIshX1sXE=",
+        "bzlTransitiveDigest": "nsM9TJlv/3UhfShpdNe4npF8AD7NuDCHDmBSVNYOB98=",
         "usagesDigest": "/9NP3RV6/DWuNdYAsIU/8UCgCX0TdPUJr0X6O+0lrtk=",
         "recordedFileInputs": {
           "@@protobuf+//python/requirements.txt": "983be60d3cec4b319dcab6d48aeb3f5b2f7c3350f26b3a9e97486c37967c73c5",
