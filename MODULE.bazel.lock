@@ -456,7 +456,7 @@
     "@@rules_oci+//oci:extensions.bzl%oci": {
       "general": {
         "bzlTransitiveDigest": "MJteH2Ud0OjIEngyMRBLN3pmXZXtHFw+yb/nwpXZBr4=",
-        "usagesDigest": "+sl4ccn98nLAVz1fIXTIqzoLBcY/Rf68HLQukiwSlfY=",
+        "usagesDigest": "hRQbjLxrbLzaTvJi6Zq1XrfL/fR+4VZ5ZTG/AjrvgyY=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
         "envVariables": {},
@@ -468,7 +468,7 @@
               "scheme": "https",
               "registry": "index.docker.io",
               "repository": "library/debian",
-              "identifier": "sha256:fd8f5a1df07b5195613e4b9a0b6a947d3772a151b81975db27d47f093f60c6e6",
+              "identifier": "sha256:72547dd722cd005a8c2aa2079af9ca0ee93aad8e589689135feaed60b0a8c08d",
               "platform": "linux/amd64",
               "target_name": "palworld-server-debian_linux_amd64",
               "bazel_tags": []
@@ -482,7 +482,7 @@
               "scheme": "https",
               "registry": "index.docker.io",
               "repository": "library/debian",
-              "identifier": "sha256:fd8f5a1df07b5195613e4b9a0b6a947d3772a151b81975db27d47f093f60c6e6",
+              "identifier": "sha256:72547dd722cd005a8c2aa2079af9ca0ee93aad8e589689135feaed60b0a8c08d",
               "platforms": {
                 "@@platforms//cpu:x86_64": "@palworld-server-debian_linux_amd64"
               },
