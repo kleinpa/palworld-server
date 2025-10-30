@@ -161,7 +161,7 @@
   "moduleExtensions": {
     "//:steamapps.bzl%steamapps_bzlmod": {
       "general": {
-        "bzlTransitiveDigest": "87yZutNMp9Y1tQIMY0GSvh+HghZ5ranrgeciEtl599I=",
+        "bzlTransitiveDigest": "udLxyAElvb/g8JKtY06MdgvBEapwCYD1IEojY8VmU+8=",
         "usagesDigest": "BcKLk1Qdk36yz9dChLTo4yiD8DB2AHQXyQ/gWPMXiJA=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
@@ -180,7 +180,7 @@
             "attributes": {
               "app": "2394010",
               "depot": "2394012",
-              "manifest": "7543835373978771853"
+              "manifest": "3893574637546538559"
             }
           },
           "palworld_dedicated_server": {
