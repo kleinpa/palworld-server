@@ -161,7 +161,7 @@
   "moduleExtensions": {
     "//:steamapps.bzl%steamapps_bzlmod": {
       "general": {
-        "bzlTransitiveDigest": "udLxyAElvb/g8JKtY06MdgvBEapwCYD1IEojY8VmU+8=",
+        "bzlTransitiveDigest": "2/gUt0eaQmugJYYhMgjYdWIB0atBWS4aewQ5tCih49A=",
         "usagesDigest": "BcKLk1Qdk36yz9dChLTo4yiD8DB2AHQXyQ/gWPMXiJA=",
         "recordedFileInputs": {},
         "recordedDirentsInputs": {},
@@ -172,7 +172,7 @@
             "attributes": {
               "app": "2394010",
               "depot": "1006",
-              "manifest": "5587033981095108078"
+              "manifest": "6403079453713498174"
             }
           },
           "depot2394012": {
