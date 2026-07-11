@@ -233,7 +233,7 @@
   "moduleExtensions": {
     "//:steamapps.bzl%steamapps_bzlmod": {
       "general": {
-        "bzlTransitiveDigest": "Y4MWMZV6J2UlwkA1gEPUNZknx+ruOyZ5mEKChJz8bl8=",
+        "bzlTransitiveDigest": "+r12eXn0HWAdE84/9Yw3TzbZgdA4v7VoKbkWcZGynaY=",
         "usagesDigest": "BcKLk1Qdk36yz9dChLTo4yiD8DB2AHQXyQ/gWPMXiJA=",
         "recordedInputs": [
           "REPO_MAPPING:,rules_steam rules_steam+"
@@ -252,7 +252,7 @@
             "attributes": {
               "app": "2394010",
               "depot": "2394012",
-              "manifest": "5125159522749666228"
+              "manifest": "3392720560779800260"
             }
           },
           "palworld_dedicated_server": {
