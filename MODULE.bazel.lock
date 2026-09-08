@@ -231,7 +231,7 @@
   "moduleExtensions": {
     "//:steamapps.bzl%steamapps_bzlmod": {
       "general": {
-        "bzlTransitiveDigest": "scgBgN+lUZiHxyiFEuAaFs8E7PRb13Hw7dJ1ygMmXNc=",
+        "bzlTransitiveDigest": "Y+Xq32plC7ARcP0tja0CmknOoP7FBdFw3B1eReIDHNA=",
         "usagesDigest": "BcKLk1Qdk36yz9dChLTo4yiD8DB2AHQXyQ/gWPMXiJA=",
         "recordedInputs": [
           "REPO_MAPPING:,rules_steam rules_steam+"
@@ -251,7 +251,7 @@
             "attributes": {
               "app": "2394010",
               "depot": "2394012",
-              "manifest": "7750626597239103317",
+              "manifest": "1125678324530723107",
               "files": []
             }
           },
