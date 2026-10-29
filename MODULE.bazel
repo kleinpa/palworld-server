@@ -20,6 +20,6 @@ oci.pull(
     name = "palworld-server-debian",
     image = "docker.io/library/debian",
     platforms = ["linux/amd64"],
-    digest = "sha256:4c25275446ca371766b8b093c696782eabce06263fccacb8d5d813b3dc44b308",
+    digest = "sha256:2dc419c6d7fe3dad0a2f9fd469c34cc90b0f9ba642d8fde837fe3d7d34a0e7f1",
 )
 use_repo(oci, "palworld-server-debian", "palworld-server-debian_linux_amd64")
