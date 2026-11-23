@@ -231,7 +231,7 @@
   "moduleExtensions": {
     "//:steamapps.bzl%steamapps_bzlmod": {
       "general": {
-        "bzlTransitiveDigest": "KB8db2xQVhw99h+SmqJzeAoUPKSKCd+DLhpCLFQMI7c=",
+        "bzlTransitiveDigest": "JXRpeMrYhXT/hQE4vao7MlBj58bBZvwAcWyeMnrAzv8=",
         "usagesDigest": "BcKLk1Qdk36yz9dChLTo4yiD8DB2AHQXyQ/gWPMXiJA=",
         "recordedInputs": [
           "REPO_MAPPING:,rules_steam rules_steam+"
@@ -651,7 +651,7 @@
     },
     "@@rules_steam+//examples:steamapps.bzl%steamapps_bzlmod": {
       "general": {
-        "bzlTransitiveDigest": "uqnaywK73Ho9NI2VOoMaYJipq6POUEeJfXf9oKi802I=",
+        "bzlTransitiveDigest": "8ulqdiSBfd+tjdpOFdm1SwywupRFryBpli5UBtK48GY=",
         "usagesDigest": "isr7MUkdYvjmTnD5Fuvk+tfcDetu3wo42BqrBuA0CME=",
         "recordedInputs": [
           "REPO_MAPPING:rules_steam+,rules_steam rules_steam+"
